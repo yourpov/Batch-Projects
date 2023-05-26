@@ -1,7 +1,6 @@
-:: Yes I Know This Is Autistic; Was Asked To Post It (Not By Me)
 @echo off
 color 0e
-title Guessing Game by Surtains
+title Guessing Game
 set /a guessnum=0
 set /a answer=%RANDOM%
 set variable1=surf33
@@ -19,7 +18,7 @@ if %guess% GTR %answer% ECHO Lower!
 if %guess% LSS %answer% ECHO Higher! 
 if %guess%==%answer% GOTO EQUAL
 set /a guessnum=%guessnum% +1
-if %guess%==%variable1% ECHO Found the backdoor hey?, the answer is: %answer%
+if %guess%==%variable1% echo Found the backdoor, the answer is: %answer%
 goto top
 :equal
 echo Congratulations, You guessed right!!! 
