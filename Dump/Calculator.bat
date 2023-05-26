@@ -1,9 +1,8 @@
 @echo off
-title ..::[+] Calculator by Nix [+]::..
+title ..::[+] Calculator [+]::..
 color b
 :top
 echo [+] Welcome %USERNAME%...
-echo [+] Batch Calculator By Nix...
 echo [+] Enter A Desired Problem Below...
 echo.
 set /p sum=
